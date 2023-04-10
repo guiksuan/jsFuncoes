@@ -1,0 +1,82 @@
+body{
+  background-color: #ff9912;
+}
+
+.chapeu{
+  position: absolute;
+  top: -1vh;
+}
+
+.text{
+  position: absolute;
+  font-family:cursive
+}
+
+.container{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    flex-direction: row; /* deixa o retangulo na horizontal */
+  }
+  
+  #Grifinoria{
+    flex-basis: 25%;
+    background-color: #AE0001;
+  }
+
+  #Lufa-Lufa{
+    flex-basis: 25%;
+    background-color: #eeb117;
+  }
+  
+  #Corvinal{
+    flex-basis: 25%;
+    background-color: #222f5b;
+  }
+  
+
+  #Sonserina{
+    flex-basis: 25%;
+    background-color: #2a623d;
+  }
+
+  .btn{
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 3vh;
+    box-shadow: 2px 2px 5px #ffffff;
+  }
+  
+  .btn1{
+    background-color: #4d0000;
+    margin-left: 7vw;
+  }
+
+  .btn2{
+    background-color: #d1990a;
+    margin-left: 8vw;
+  }
+
+  .btn3{
+    background-color: #101f52;
+    margin-left: 10vw;
+  }
+
+  .btn4{
+    background-color:#10692e;
+    margin-left: 9vw;
+  }
+  
+.btn5{
+  background-color: #26613f;
+  margin-left: 7vw;
+}
+
+#minhaFuncao{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}

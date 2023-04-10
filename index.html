@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/funcoes.js"></script>
+    <title>jsFuncoes</title>
+</head>
+<body>       
+    <div class=conteiner-fluid>
+        <div class="container">
+                                           
+            <div id="Grifinoria" onmouseover="corumsecum()" onmouseout="cordoissecum()"> <img src="img/grifinoria.png" style="margin-top: 250px; margin-left: 15px; height: 25vw;"> <button class="btn btn1" onclick="alert('Sua casa é Grifinória!')"> Grifinória </button>
+            </div>
+
+            <div id="Lufa-Lufa" onmouseover="corumsecum1()" onmouseout="cordoissecum1()"><img src="img/lufa-lufa.png" style="margin-top: 250px; margin-left: 20px; width: 20vw; height: 25vw;"> <button class="btn btn2" onclick="alert('Sua casa é Lufa-Lufa!')"> Lufa-Lufa </button>
+            </div>
+
+            <div id="Corvinal" onmouseover="corumsecum2()" onmouseout="cordoissecum2()"><img src="img/corvinal.png" style="margin-top: 250px; margin-left: 15px; width: 25vw; height: 25vw;"> <button class="btn btn3" onclick="alert('Sua casa é Corvinal!')"> Corvinal </button>
+            </div>
+
+            <div id="Sonserina" onmouseover="corumsecum3()" onmouseout="cordoissecum3()"><img src="img/sonserina.png" style="margin-top: 250px; width: 25vw; height: 25vw;;"> <button class="btn btn4" onclick="alert('Sua casa é Sonserina!')"> Sonserina </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="chapeu">
+        <img src="img/chapeu-seletor.png" style="height: 25vh; margin-left: 20vw;">
+
+        <div style="margin-top: -20vh; margin-left: 34vw; font-size: 2vh; color: #ffff;">
+            <h1>O chapeu sentiu algo, quer ver sua verdadeira casa ? </h1>
+
+            <button class="btn btn5" onclick="gerarCasa()">Sim!</button>
+
+            <button class="btn btn5" id="minhaFuncao" ondblclick="minhaFuncao()"> Não! (Dê dois cliques). Escolher uma dessas:</button>
+            <p id="casitas" style="margin-left: 25vw
+            ;"></p>
+
+        </div>
+
+    </div>
+
+   
+</body>
+</html>
